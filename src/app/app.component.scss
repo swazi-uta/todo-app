@@ -1,3 +1,36 @@
+.wrapper{
+	padding:0px 20px;
+	min-height: 90vh;
+	position: relative;/*←相対位置*/
+	padding-bottom: 30px;/*←footerの高さ*/
+	box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+header{
+	background-color:cadetblue;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+h1{
+	font-size: 40px;
+}
+
+.list{
+	margin-right: auto;
+	margin-left: auto;
+	width:300px
+}
+
+.detail{
+	h2{
+		text-align:center;
+	}
+	margin-right: auto;
+	margin-left: auto;
+	width:300px
+}
+
 .tasks {
   margin: 0 0 2em 0;
   list-style-type: none;
@@ -44,4 +77,12 @@
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
   }
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	position: absolute;
+	bottom: 0;
 }
